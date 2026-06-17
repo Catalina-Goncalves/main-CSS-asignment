@@ -1,0 +1,21 @@
+.content-width {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.vertical-column {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 10rem;
+}
+
+.landing-page > section {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.landing-page + footer {
+  margin-top: 8rem;
+}

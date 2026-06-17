@@ -1,21 +1,23 @@
-.quote-section{
-    background-color: var(--color-text-light);
-    justify-content:center;
-    padding: 100px;
+.quote-section {
+  background-color: var(--color-text-light);
+  justify-content: center;
+  padding: 100px;
 }
 
-.quote-section .text{
-    font-size: var(--size-bigger);
-    font-weight: light;
-    color: var(--color-text);
-    text-align: center;
+.quote-section .text {
+  font-size: var(--size-bigger);
+  font-weight: light;
+  color: var(--color-text);
+  text-align: center;
 }
-.quote-section .author{
-    font-size: var(--size-big);
-    color: var(--color-text);
-    text-align: right;
+.quote-section .author {
+  font-size: var(--size-big);
+  color: var(--color-text);
+  text-align: right;
 }
-header {
+
+header,
+.header-body {
   background-color: var(--color-text);
   padding: 0 0rem;
 }
@@ -24,6 +26,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 1rem 3rem;
 }
 
 .logo {
@@ -50,13 +54,16 @@ header {
 }
 
 .header-links a:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 .header-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  width: 100%;
+
   gap: 4rem;
   padding: 2rem 0 8rem;
 }
@@ -136,10 +143,10 @@ header {
   gap: 3rem;
   justify-content: space-around;
 }
-/* -------------------------------cta - footer----------------------------------- */
+
 .cta {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   background-color: var(--color-primary);
@@ -148,7 +155,7 @@ header {
 
   width: fit-content;
   padding: 5rem 10rem;
-  margin: 10rem auto 10rem auto;
+  /* margin: 10rem auto 10rem auto; */
   font-size: var(--size-normal);
 }
 
