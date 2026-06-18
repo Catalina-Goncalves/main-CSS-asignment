@@ -21,6 +21,7 @@
   --size-bigger: 3.6rem;
   --size-big: 2.4rem;
   --size-normal: 1.8rem;
+  --size-small: 1.5rem;
 }
 
 *,
@@ -35,6 +36,10 @@
 html {
   /* 1rem = 10px */
   font-size: 62.5%;
+
+  @media (max-width: 900px) {
+    font-size: 56.25%;
+  }
 }
 
 body {
@@ -44,4 +49,20 @@ body {
 
   font-size: var(--size-normal);
   color: var(--color-text);
+}
+
+label {
+  font-size: var(--size-small);
+  font-weight: 500;
+}
+
+input,
+textarea {
+  font-family: 'Roboto', sans-serif;
+  font-size: var(--size-normal);
+
+  padding: 1rem 1.5rem;
+
+  border: 1px solid var(--color-text-light);
+  border-radius: 10px;
 }
