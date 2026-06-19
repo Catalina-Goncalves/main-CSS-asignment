@@ -1,7 +1,7 @@
 .quote-section {
-    background-color: var(--color-text-light);
-    justify-content:center;
-    padding: 10rem;
+  background-color: var(--color-text-light);
+  justify-content: center;
+  padding: 10rem;
 }
 
 .quote-section .text {
@@ -309,29 +309,28 @@
   gap: 4rem;
 }
 
-.bio{
+.bio {
   text-align: justify;
   font-size: var(--size-normal);
 }
 
-.bio-header{
+.bio-header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .bio-text {
-
   justify-content: center;
   align-items: center;
   padding: 2rem;
 }
 
-.name{
+.name {
   text-align: center;
 }
 
-.role{
+.role {
   text-align: center;
 }
 
@@ -341,7 +340,6 @@
   border-radius: 2rem;
   border: 2px solid var(--color-primary);
 }
-
 
 .contact-icon {
   display: inline-block;
@@ -411,6 +409,9 @@
 }
 
 .contact-form-section {
+  display: flex;
+  justify-content: center;
+
   gap: 3rem;
 
   background-color: var(--color-text-light);
